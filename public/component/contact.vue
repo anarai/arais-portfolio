@@ -92,20 +92,8 @@ export default {
 			submitParams.append("entry.1576306354", this.title);
 			submitParams.append("entry.2119727395", this.message);
 
-			const CORS_PROXY = 'https://cors-escape.herokuapp.com/'
+			const CORS_PROXY = 'https://cors-anywhere.herokuapp.com/'
 			const GOOGLE_FORM_ACTION = 'https://docs.google.com/forms/d/e/1FAIpQLSdYPCMYSF10huJquc0x0vHw5sNoGX2ljuYTh8kLPSIYq05gjg/formResponse'
-
-			// axios({
-			// 	method:'post',
-			// 	url:'https://docs.google.com/forms/d/e/1FAIpQLScU1CL-ov0EBK36JZlAp9OVZmipVEnFUIYGf5DbvhOzDbUDwA/formResponse',
-			// 	responseType:'json',
-			// 	headers: {'Content-Type': 'application/json;charset=UTF-8', 'Access-Control-Allow-Origin': '*'},
-			// 	data: submitParams
-			// }).then(function (res) {
-			// 	this.isSubmitComplete = true
-			// }).catch(
-			// 	error => console.log(error)
-			// )
 
 			// ajax
 			axios.post(CORS_PROXY + GOOGLE_FORM_ACTION, submitParams).then(res => {
