@@ -50,7 +50,12 @@
 		</section>
 
 		<section class="business_profile_wrap">
-			<p>〜〜ここから転職向けプロフィール〜〜</p>
+			<p>
+				↓<br />
+				↓<br />
+				↓<br />
+				〜〜ここから転職向けプロフィール〜〜
+			</p>
 
 			<h2>自己紹介</h2>
 			<p class="profile_textarea">

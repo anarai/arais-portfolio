@@ -4,7 +4,7 @@
 		<!-- タイトル＆キリ番 -->
 		<section class="ttl_area">
 			<p class="since_txt">
-				ＬＡＳＴ　ＵＰＤＡＴＥ: ２０１９／１／１３<br />
+				ＬＡＳＴ　ＵＰＤＡＴＥ: ２０１９／２／８<br />
 				ＳＩＮＣＥ: ２０１８／１２／１
 			</p>
 
@@ -31,7 +31,7 @@
 		</p>
 
 		<p class="news_text">
-      ２０１９／１／１３ 更新：キリ番カウンター設置しました☆
+      ２０１９／２／８ 更新：リンク集更新しました☆
       <img :src="new_gif_src" width="auto" height="11" alt="NEW">
     </p>
 
@@ -79,7 +79,7 @@
 				</tr>
 				<tr>
 					<td>ＬＩＮＫＳ</td>
-					<td>リンク集です。相互リンク常時募集しております♪</td>
+					<td>リンク集です。相互リンク常時募集しております♪<img :src="new_gif_src" width="auto" height="11" alt="NEW"></td>
 				</tr>
 				<tr>
 					<td>ＣＯＮＴＡＣＴ</td>

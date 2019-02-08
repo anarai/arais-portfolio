@@ -28,6 +28,25 @@
 			<tbody>
 				<tr>
 					<th>
+						<a href="https://github.com/anarai">
+							ＭＹ　ＧｉｔＨｕｂ
+						</a>
+					</th>
+					<td>管理人のＧｉｔＨｕｂアカウント♪このホムペのソースもこちらから♪</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="https://alliance7.blogspot.com/">
+							ＭＹ　Ｂｌｏｇ
+						</a>
+					</th>
+					<td>
+						長時間悩んだ問題について分野問わず書いています★<br />
+						このホムペの制作関連記事もあるよ(^_-)ー☆
+					</td>
+				</tr>
+				<tr>
+					<th>
 						<a href="https://www.google.co.jp/">
 							ＧＯＯＧＬＥ
 						</a>
@@ -60,11 +79,11 @@
 				</tr>
 				<tr>
 					<th>
-						<a href="http://www.geocities.jp/yuusuke4971/">
-							ゆうすけのホームページ
+						<a href="http://abehiroshi.la.coocan.jp/">
+							阿部寛のホームページ
 						</a>
 					</th>
-					<td>このホムペを作る時に参考にさせていただいたサイト様♪</td>
+					<td>このホムペを作る時に参考にさせていただいたサイト様♪みんなの憧れ！！</td>
 				</tr>
 				<tr>
 					<th>
@@ -72,7 +91,7 @@
 							ヴェルディくんのお部屋
 						</a>
 					</th>
-					<td>このホムペを作る時に参考にさせていただいたサイト様♪</td>
+					<td>このホムペを作る時に参考にさせていただいたサイト様♪gifがイケてる！！</td>
 				</tr>
 			</tbody>
 		</table>

@@ -43,7 +43,6 @@
 			<li class="post_wrap" v-for="(postItem, postKey) in postList">
 				<div class="post_countets">
 					<h4>
-						<span>{{ postKey + 1 }}:</span>
 						{{ postItem.title }}
 					</h4>
 					<p class="bbs_txt">{{ postItem.message }}</p>
@@ -77,7 +76,7 @@ export default {
 		// db setting
 		db.settings({ timestampsInSnapshots: true })
 		const self = this
-		db.collection("bbs").get().then((querySnapshot) => {
+		db.collection("bbs").orderBy("date", "desc").limit(10).get().then((querySnapshot) => {
 			querySnapshot.forEach((doc) => {
 				let getData = {
 					'name': doc.data().name,
